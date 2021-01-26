@@ -1,0 +1,32 @@
+.removal {
+    text-transform: none;
+    margin-left: 50px;
+}
+
+#enteredForm {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid rgb(1, 2, 80, 0.8);
+    border-radius: 5px;
+}
+
+#enteredForm:hover {
+    background-color: rgba(72, 33, 245, 0.2);
+}
+
+hr {
+    margin: 20px 878px 0 0;
+    border: none;
+    border-bottom: 3px solid rgb(1, 2, 80);
+}
+
+.title {
+    float: left;
+}
+
+.text {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    width: 480px;
+}

@@ -1,0 +1,10 @@
+#link {
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#link:hover {
+    color: rgba(72, 33, 245, 0.712);
+    text-decoration: underline;
+}
