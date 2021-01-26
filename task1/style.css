@@ -2,7 +2,7 @@ p {
     display: inline-block;
     font-size: 24px;
     font-weight: bolder;
-    border: 1px solid red;
+    border: 1px solid rgb(1, 2, 80);
     border-radius: 5px;
     padding: 5px 15px;
 }
