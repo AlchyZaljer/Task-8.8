@@ -7,19 +7,22 @@ trafficLightArr.forEach(function(item) {
     item.addEventListener('click', makeGreen); 
     function makeGreen() {
         trafficLightEl1.style.background = ('green');
+        trafficLightEl2.style.background = ('black');
         trafficLightEl3.style.background = ('black');
         item.removeEventListener('click', makeGreen);
         item.addEventListener('click', makeYellow);
     }
     function makeYellow() {
-        trafficLightEl2.style.background = ('yellow');
         trafficLightEl1.style.background = ('black');
+        trafficLightEl2.style.background = ('yellow');
+        trafficLightEl3.style.background = ('black');
         item.removeEventListener('click', makeYellow);
         item.addEventListener('click', makeRed);
     }
     function makeRed() {
-        trafficLightEl3.style.background = ('red');
+        trafficLightEl1.style.background = ('black');
         trafficLightEl2.style.background = ('black');
+        trafficLightEl3.style.background = ('red');
         item.removeEventListener('click', makeRed);
         item.addEventListener('click', makeGreen);
     }
