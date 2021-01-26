@@ -8,5 +8,5 @@ document.querySelector('#alert').addEventListener('click', () => {
 })
 
 document.querySelector('#prompt').addEventListener('click', () => {
-    prompt('Сообщение с запросом на ввод текста в диалоговом окне.', 'Значение по умолчанию в поле ввода.');
+    prompt('Сообщение с запросом на ввод текста в диалоговом окне.', 'Привет!');
 })

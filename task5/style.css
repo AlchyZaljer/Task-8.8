@@ -15,7 +15,7 @@
 }
 
 hr {
-    margin: 20px 878px 0 0;
+    margin-left: -20px;
     border: none;
     border-bottom: 3px solid rgb(1, 2, 80);
 }
@@ -28,5 +28,5 @@ hr {
     float: left;
     margin-left: 20px;
     display: block;
-    width: 480px;
+    width: 500px;
 }

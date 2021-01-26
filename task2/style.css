@@ -9,6 +9,10 @@ p:first-child {
     margin-top: 0;
 }
 
+p:hover {
+    color: rgba(72, 33, 245, 0.712);
+}
+
 code {
     margin-left: 50px;
     padding: 10px 20px;
